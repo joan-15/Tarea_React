@@ -9,6 +9,7 @@ const NavBar = () => {
             <ul className="navbar-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/main">Main</Link></li>
+                <li><Link to="/about">About</Link></li> {/* Enlace a About */}
             </ul>
         </nav>
     );
